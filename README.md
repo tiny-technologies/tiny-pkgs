@@ -7,6 +7,7 @@
 a collection of tiny packages
 
 * [`tiny-shell`](https://github.com/tiny-technologies/tiny-pkgs)
+* [`supersort`](https://github.com/tiny-technologies/supersort)
 
 ## install or run packages
 

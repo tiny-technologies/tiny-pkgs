@@ -23,6 +23,20 @@
 
           cargoSha256 = "sha256-4XxijeCyu27WqS+hS+eoFD9PYommj5BmvCJmADMgMgA=";
         };
+        supersort = stdenv.mkDerivation rec {
+          pname = "supersort";
+          version = "0.1.0";
+
+          src = fetchFromGitHub {
+            owner = "tiny-technologies";
+            repo = pname;
+            rev = "f26765885d59da96bbeb82df3a387735d64adc07";
+            sha256 = "sha256-PNFkEqGbwbdU+t3g08waVGnHQ+IDVap+V3K7Sqfj/28=";
+          };
+
+          buildPhase = "make";
+          installPhase = "mkdir -p $out/bin; cp build/supersort $out/bin";
+        };
       };
     });
 }
