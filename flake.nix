@@ -17,8 +17,8 @@
           src = fetchFromGitHub {
             owner = "tiny-technologies";
             repo = pname;
-            rev = "15b902ca3b1d8c1af6260c5e9115cae4bce6373f";
-            sha256 = "sha256-VzhsTWT2heuQD78NGkIXzcKPe16UFDr1YSc5InaMkzw=";
+            rev = "5f9d216f77e84643d05d6ce0a093c70e48de09fa";
+            sha256 = "sha256-5sCPDFTpLWAxX2skSnE3APhhcBKZ4dP364Jyg4GJit4=";
           };
 
           cargoSha256 = "sha256-4XxijeCyu27WqS+hS+eoFD9PYommj5BmvCJmADMgMgA=";
